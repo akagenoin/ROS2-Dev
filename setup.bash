@@ -21,4 +21,4 @@ sudo apt install python3-argcomplete
 #make_work_space 
 sudo mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws
-colon build 
+colcon build 
