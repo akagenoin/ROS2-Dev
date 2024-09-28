@@ -6,7 +6,7 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 
 #install ros-foxy
 sudo apt update
-sudo apt install ros-foxy-base
+sudo apt install ros-foxy-desktop
 
 #setup enviroment
 echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
